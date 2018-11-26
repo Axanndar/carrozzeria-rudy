@@ -1,0 +1,122 @@
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url("../img/carrozzeria/img2.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
+
+
+ .text-ferrari {
+     color: #ff2800!important;
+ }
+
+ .bg-ferrari {
+    background-color: #ff2800 !important;
+  }
+
+ .btn-ferrari {
+    background-color: #ff2800;
+    border-color: #ff2800;
+    color: #fff;
+  }
+  
+  .btn-ferrari:hover, .btn-ferrari:focus, .btn-ferrari:active {
+    color: #fff;
+    background-color: #ff5233 !important;
+  }
+  
+  .btn-ferrari:active, .btn-ferrari:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 40, 0, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 40, 0, 0.5) !important;
+  }
+
+ header.masthead h2 {
+    font-size: 3rem;
+}
+
+
+#ferrariNav {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  #ferrariNav .navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ff2800;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  #ferrariNav .navbar-brand:focus, #ferrariNav .navbar-brand:hover {
+    color: #ff2800;
+  }
+  
+  #ferrariNav .navbar-nav > li.nav-item > a.nav-link,
+  #ferrariNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    font-size: .9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212529;
+  }
+  
+  #ferrariNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #ferrariNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #ff2800;
+  }
+  
+  #ferrariNav .navbar-nav > li.nav-item > a.nav-link.active,
+  #ferrariNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+    color: #ff2800 !important;
+    background-color: transparent;
+  }
+  
+  #ferrariNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+  #ferrariNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+    background-color: transparent;
+  }
+  
+  @media (min-width: 992px) {
+    #ferrariNav {
+      border-color: transparent;
+      background-color: transparent;
+    }
+    #ferrariNav .navbar-brand {
+      color: rgba(255, 255, 255, 0.7);
+    }
+    #ferrariNav .navbar-brand:focus, #ferrariNav .navbar-brand:hover {
+      color: #fff;
+    }
+    #ferrariNav .navbar-nav > li.nav-item > a.nav-link {
+      padding: 0.5rem 1rem;
+    }
+    #ferrariNav .navbar-nav > li.nav-item > a.nav-link,
+    #ferrariNav .navbar-nav > li.nav-item > a.nav-link:focus {
+      color: rgba(255, 255, 255, 0.7);
+    }
+    #ferrariNav .navbar-nav > li.nav-item > a.nav-link:hover,
+    #ferrariNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+      color: #fff;
+    }
+    #ferrariNav.navbar-shrink {
+      border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+      background-color: #fff;
+    }
+    #ferrariNav.navbar-shrink .navbar-brand {
+      color: #ff2800;
+    }
+    #ferrariNav.navbar-shrink .navbar-brand:focus, #ferrariNav.navbar-shrink .navbar-brand:hover {
+      color: #ff2800;
+    }
+    #ferrariNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+    #ferrariNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+      color: #212529;
+    }
+    #ferrariNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+    #ferrariNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+      color: #ff2800;
+    }
+  }
