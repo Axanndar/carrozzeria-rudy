@@ -1,6 +1,6 @@
-# Carrozzeria Rudi
+# Carrozzeria Rudy
 
-Carrozzeria Rudi.
+Carrozzeria Rudy.
 
 ## Description
 
